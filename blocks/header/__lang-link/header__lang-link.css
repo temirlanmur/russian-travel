@@ -1,0 +1,24 @@
+.header__lang-link {
+  margin-left: 18px;
+  font-size: 1.5rem;
+}
+
+.header__lang-link:link {
+  text-decoration: none;
+}
+
+.header__lang-link:visited {
+  color: #fff;
+}
+
+.header__lang-link:hover {
+
+}
+
+.header__lang-link:focus {
+
+}
+
+.header__lang-link:active {
+
+}
