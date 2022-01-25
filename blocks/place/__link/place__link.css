@@ -1,0 +1,28 @@
+.place__link {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  letter-spacing: 0%;
+}
+
+.place__link:link {
+
+}
+
+.place__link:visited {
+  color: #fff;
+}
+
+.place__link:hover {
+
+}
+
+.place__link:focus {
+
+}
+
+.place__link:active {
+
+}

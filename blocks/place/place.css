@@ -1,0 +1,11 @@
+.place {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto minmax(min-content, max-content) auto;
+  grid-template-areas:
+    "title website"
+    "image ."
+    "image .";
+  gap: 27px 40px;
+}
