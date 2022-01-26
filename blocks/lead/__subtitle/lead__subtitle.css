@@ -7,3 +7,10 @@
   line-height: 2.25rem;
   letter-spacing: 0%;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    font-size: 3.9vw;
+    line-height: 4.6875vw;
+  }
+}
