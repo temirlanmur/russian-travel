@@ -7,22 +7,10 @@
   letter-spacing: 0%;
 }
 
-.place__link:link {
-
-}
-
 .place__link:visited {
   color: #fff;
 }
 
 .place__link:hover {
-
-}
-
-.place__link:focus {
-
-}
-
-.place__link:active {
-
+  opacity: 80%;
 }
