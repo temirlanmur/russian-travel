@@ -1,12 +1,22 @@
 .header__lang-link {
-  margin-left: 18px;
+  margin: 0 0 0 18px;
   font-size: 1.5rem;
+  line-height: 1.75rem;
+  letter-spacing: 0;
 }
 
 .header__lang-link:link {
   text-decoration: none;
+  color: #fff;
 }
 
 .header__lang-link:visited {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+  }
 }
