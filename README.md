@@ -6,7 +6,7 @@ This project was completed as a part of my training in Yandex Practicum (Sprint 
 
 It represents a single page I made based on provided design specification.
 
-The page supports addaptive design.
+The page supports adaptive design.
 
 ### Tech
 For this project I have used HTML, and CSS:
