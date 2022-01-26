@@ -34,3 +34,21 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    padding: 28px 24px 24px
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 425px) {
+
+}
