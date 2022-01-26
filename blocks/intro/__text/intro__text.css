@@ -7,3 +7,11 @@
   line-height: 163%;
   letter-spacing: 0%;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: none;
+    width: 100%;
+  }
+}
+
