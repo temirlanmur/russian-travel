@@ -1,23 +1,18 @@
-# Проект: Путешествие по России
+# "Travel Across Russia" project
+## Проект "Путешествие по России"
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+### Description
+This project was completed as a part of my training in Yandex Practicum (Sprint #3).
 
-**Интро**
+It represents a single page I made based on provided design specification.
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+The page supports addaptive design.
 
-**Figma**
+### Tech
+For this project I have used HTML, and CSS:
+- BEM methodology is utilized when writing CSS and organizing files;
+- Flexbox and grid are utilized;
+- The layout is made using different positioning techniques;
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+### GitHub Pages link
+* [link](https://temirlanmur.github.io/russian-travel/)
