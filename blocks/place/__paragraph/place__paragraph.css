@@ -8,7 +8,7 @@
   letter-spacing: 0%;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
     margin-top: 25px;
   }
