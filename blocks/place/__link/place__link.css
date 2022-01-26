@@ -7,7 +7,7 @@
   letter-spacing: 0%;
 }
 
-.place__link {
+.place__link:link {
   color: #fff;
 }
 
