@@ -1,11 +1,25 @@
 .place {
   margin-top: 80px;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto 1fr;
   grid-template-areas:
     "title website"
     "image ."
     "image .";
   gap: 27px 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    margin-top: 73px;
+    gap: 25px 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    margin-top: 50px;
+    display: block;
+  }
 }
