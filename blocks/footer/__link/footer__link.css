@@ -16,13 +16,5 @@
 }
 
 .footer__link:hover {
-
-}
-
-.footer__link:focus {
-
-}
-
-.footer__link:active {
-
+  opacity: 80%;
 }
