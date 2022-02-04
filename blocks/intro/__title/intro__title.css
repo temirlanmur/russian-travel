@@ -7,6 +7,12 @@
   letter-spacing: 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .intro__title {
+    max-width: 690px;
+  }
+}
+
 @media screen and (max-width: 720px) {
   .intro__title {
     max-width: 380px;
