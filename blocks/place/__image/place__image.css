@@ -3,9 +3,8 @@
   width: 100%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   .place__image {
-    width: 100vw;
-    margin: 32px -24px;
+    margin: 32px 0;
   }
 }

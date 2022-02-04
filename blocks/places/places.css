@@ -2,14 +2,21 @@
   margin: 92px 48px 0;
 }
 
+@media screen and (min-width: 1280px) {
+  .places {
+    max-width: 984px;
+    margin: 92px auto 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
- .place {
-   margin-top: 88px 24px 0;
+ .places {
+   margin: 88px 24px 0;
  }
 }
 
 @media screen and (max-width: 425px) {
-  .place {
-    margin-top: 64px 16px 0;
+  .places {
+    margin: 64px 0 0;
   }
 }
