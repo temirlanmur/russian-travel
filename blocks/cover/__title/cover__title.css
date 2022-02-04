@@ -1,5 +1,4 @@
 .cover__title {
-  position: relative;
   max-width: 560px;
   margin: 0 auto;
   padding: 0;
@@ -10,8 +9,7 @@
   line-height: 4.75rem;
   letter-spacing: 0;
   color: #fff;
-  text-decoration: none;
-  z-index: 2;
+  z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
