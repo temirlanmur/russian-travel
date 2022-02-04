@@ -4,11 +4,18 @@
   font-size: 3.375rem;
   font-weight: 800;
   line-height: 3.625rem;
-  letter-spacing: 0%;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .intro__title {
+    max-width: 380px;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .intro__title {
+    max-width: 214px;
     font-size: 2rem;
     line-height: 2.1875rem;
   }
