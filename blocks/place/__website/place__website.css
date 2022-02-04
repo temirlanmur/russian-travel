@@ -1,9 +1,21 @@
 .place__website {
-  margin: 0 0 48px;
+  margin: 0 0 calc(48px - 27px);
   grid-area: website;
   align-self: flex-end;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin-bottom: calc(48px - 25px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__website {
+    margin: 32px 24px 0;
+  }
 }
 
 @media screen and (max-width: 425px) {
