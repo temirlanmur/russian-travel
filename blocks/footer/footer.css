@@ -16,3 +16,9 @@
     align-items: flex-start;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .footer {
+    margin: 64px 16px 0;
+  }
+}
