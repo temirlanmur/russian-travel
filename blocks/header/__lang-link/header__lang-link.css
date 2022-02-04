@@ -1,8 +1,10 @@
 .header__lang-link {
   margin: 0 0 0 18px;
   font-size: 1.5rem;
+  font-weight: normal;
   line-height: 1.75rem;
   letter-spacing: 0;
+  transition: 0.3s ease-in-out;
 }
 
 .header__lang-link:link {
@@ -12,6 +14,10 @@
 
 .header__lang-link:visited {
   color: #fff;
+}
+
+.header__lang-link:hover {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 425px) {

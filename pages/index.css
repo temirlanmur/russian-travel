@@ -10,10 +10,14 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link-container/footer__link-container.css);
+@import url(../blocks/footer/__link-item/footer__link-item.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__regular-weight/intro__regular-weight.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);

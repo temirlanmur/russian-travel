@@ -23,7 +23,8 @@
 }
 
 .page {
-  padding: 28px 48px 24px;
+  min-width: 320px;
+  padding: 28px 0 24px;
   background-color: #2a2c2f;
   color: #fff;
   font-family: 'Inter', 'Arial', sans-serif;
@@ -35,20 +36,8 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (min-width: 1280px) {
-  .page {
-    padding: 28px 148px 24px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .page {
-    padding: 28px 24px 24px;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .page {
-    padding: 28px 16px 24px;
+    padding-top: 16px;
   }
 }

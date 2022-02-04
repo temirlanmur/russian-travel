@@ -1,0 +1,11 @@
+.footer__link-item {
+  margin-right: 18px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link-item {
+    margin-bottom: 32px;
+    display: block;
+  }
+}
