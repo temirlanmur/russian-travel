@@ -1,5 +1,5 @@
 .cover__background {
-  height: 62.5vw;
+  min-height: 62.5vw;
   display: grid;
   row-gap: 32px;
   grid-template-rows: repeat(2, auto);
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover__background {
-    height: calc((100vw - 96px) * 0.625);
+    min-height: calc(1184px * 0.625);
   }
 }
 
